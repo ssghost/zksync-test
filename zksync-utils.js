@@ -1,4 +1,5 @@
 import * as zksync from 'zksync';
+import { ethers } from 'ethers';
 
 async function getZkSyncProvider (zksync, networkName) {
   let zkSyncProvider
