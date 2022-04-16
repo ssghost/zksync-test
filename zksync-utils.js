@@ -1,3 +1,5 @@
+import * as zksync from 'zksync';
+
 async function getZkSyncProvider (zksync, networkName) {
   let zkSyncProvider
   try {
