@@ -1,7 +1,7 @@
 (async () => {
   const ethers = require('ethers')
   const zksync = require('zksync')
-  const utils = require('./utils')
+  const utils = require('./zksync-utils')
   const token = 'USDT'
   const amountToDeposit = '6.0'
   const amountToTransfer = '2.0'
