@@ -1,7 +1,7 @@
 (async () => {
   const ethers = require('ethers')
   const zksync = require('zksync')
-  const utils = require('./utils')
+  const utils = require('./zksync-utils')
   const token = 'USDT'
   const SLEEP_INTERVAL = process.env.SLEEP_INTERVAL || 5000
   const zkSyncProvider = await utils.getZkSyncProvider(zksync, process.env.NETWORK_NAME)
